@@ -1,0 +1,163 @@
+Assessment 1:
+		Create an infographic illustrating the Test-Driven Development (TDD) process. Highlight steps like writing tests before code, benefits such as bug reduction, and how it fosters software reliability.
+
+
+TDD:
+    TDD stand for Test driven development is a software development practise that emphasizes writing tests before writing the actual code. It follows a cyclical process of writing a failing test, writing the minimum code to make the test pass, and then refactoring the code
+
+
+Step 1: Write a Test
+	Develop a small, focused test that captures a specific requirement or behavior.
+
+Example:
+	 Test case for a calculator ensuring addition functionality.
+
+Step 2: Run the Test
+	Execute the test and observe it fail because the feature hasn’t been implemented yet.
+
+Example: 
+	Initial test fails as the addition feature isn't coded.
+
+Step 3: Write the Code
+
+	Implement the minimum code required to pass the test.
+
+Example: 
+	Implement addition functionality in the calculator.
+
+Step 4: Run All Tests
+
+	Execute all tests to ensure the new code doesn't break existing functionality.
+
+Example: 
+	Addition feature passes the test, and previous features remain functional.
+
+Step 5: Refactor Code
+	Improve the code’s design without changing its behavior to enhance readability or performance.
+
+Example:
+	 Refactor addition method for clarity and efficiency.
+3. Benefits of TDD
+
+Bug Reduction:
+	Detects and fixes issues early in the development process, reducing defects in the final product.
+Improved Design
+
+	Encourages modular, well-structured code that’s easier to maintain and extend.
+Software Reliability
+
+Ensures consistent behavior and functionality across updates and modifications.
+
+TDD fosters a proactive approach to software development, enhancing quality and reliability while reducing overall project risks.
+
+Design Elements:
+	Use icons and illustrations for each step (e.g., test, code, run, refactor).
+
+
+Assessment 2:
+       Produce a comparative infographic of TDD, BDD, and FDD methodologies. Illustrate their unique approaches, benefits, and suitability for different software development contexts. Use visuals to enhance understanding.
+
+
+TDD:
+	TDD stand for Test driven development is a software development practise that emphasizes writing tests before writing the actual code. It follows a cyclical process of writing a failing test, writing the minimum code to make the test pass, and then refactoring the code
+
+Life cycle for TDD:
+
+1.Write a failing test 
+2.Make the test pass
+3.Refactor
+
+methodology:
+
+1.Tests are written before code is developed.
+
+2.Red-Green-Refactor cycle: Write a failing test, write the minimum code to pass the test, refactor for better design.
+
+Benefits:
+
+1.Early bug detection and prevention.
+
+2.Improved code quality and design.
+
+3.Continuous validation against requirements.
+
+Suitability:
+
+	Ideal for agile environments and iterative development.
+Best for small to medium-sized projects with clearly defined requirements.
+
+
+BDD: 
+	BDD stands for Behavior driven development is an agile software development methodology in which an application is documented and designed around the behavior a user expects to experience when interacting with it.
+
+Life cycle of BDD:
+
+1.Describe behavior
+2.Define requirements
+3.Run and fail the tests
+4.Apply code update
+5.Run and pass the tests
+
+
+Methodology:
+	1.Focuses on user behavior and acceptance criteria.
+	2.Uses Gherkin syntax (Given-When-Then) to define 	scenarios.
+
+Benefits:
+
+1.Improved collaboration between developers, QA, and business stakeholders.
+
+2.Ensures software meets user expectations and business goals.
+
+3.Helps in automated testing and documentation.
+
+Suitability:
+	Suitable for complex systems with intricate user interactions.
+	Effective in projects requiring close alignment between technical and business teams.
+
+
+FDD:
+	FDD stands for Feature Driven Development. FDD is a framework for developing software that uses an agile model to progress organize and implement the required features. FDD is a feature driven approach for development that provides functioning software to any client along with timely updates. FDD identifies errors quickly and updates the projects regularly to deliver tangible results often and efficiently.
+
+Life cycle of FDD:
+
+1.Build an overall model
+2.build a list of features
+3.Undergo planning
+4.Design the features
+5.Build the software by feature
+
+Methodology:
+	1.Focuses on features as the primary unit of work.
+	2.Iterative and incremental development based on feature sets.
+
+Benefits:
+	1.Continuous reporting leads to an easier tracking of progress at all levels. 
+
+	2.All risks get reduced in the entire model because the overall design formulates in smaller segments.
+ 
+	3.Easy to test and analyze before release. 
+
+	4.Managing larger projects and multiple teams becomes much more feasible with FDD. 
+
+	5.The five-step development process is simpler to manage. 
+
+	6.Estimation of expenses becomes more accurate with FDD due to the segmentation in features. 
+
+	7.The entire process stays transparent among the developers, managers, deployers, and others in the team. 
+
+	8.Teams can move quickly and implement better strategies due to pre-developed standards. 
+
+Suitability:
+	Well-suited for large teams working on complex systems.
+	Effective in projects with well-defined business requirements and a structured development process.
+
+Key Differentiators:
+
+	Visual depiction of TDD, BDD, and FDD methodologies side by side.
+	Use of color coding or icons to distinguish each methodology’s approach and benefits.
+
+Suitability Matrix:
+	Visual representation of project size, complexity, and team dynamics where each methodology is most effective.
+
+	Matrix showing which methodology is best suited for different software development contexts.

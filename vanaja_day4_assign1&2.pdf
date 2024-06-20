@@ -1,0 +1,121 @@
+Assignment 1: Develop a comprehensive one-page Agile project plan for a new software
+feature.
+
+Project Name: Real-Time Collaboration Tool - Agile Project Plan
+
+Product Vision:
+To create a real-time collaboration tool that enhances remote team productivity by seamlessly integrating communication, task management, and file sharing in a user-friendly interface.
+
+Project Backlog
+Priority		User Story								Story Points		Notes/Details
+1	As a user, I want to join and create multiple virtual rooms for different projects.	     5		Room management UI, permissions settings
+2	As a user, I want real-time messaging and video conferencing capabilities within each room.  8	       Text chat, video calls, screen sharing
+3	As a user, I want to assign tasks, set deadlines, and track progress within each room.	     5		Task board integration, notifications
+4	As a user, I want to upload, share, and collaboratively edit documents within the tool.	     5		Document versioning, real-time editing
+5	As a user, I want integration with third-party tools like Google Drive and Slack.	     3		OAuth integration, API connectivity
+Sprint Planning (Sprint 1)
+Sprint Goal: Establish core functionality for virtual rooms and real-time messaging.
+
+Sprint Duration: 2 weeks
+
+User Story  		Story Points 	Tasks			 Assigned To
+Create virtual rooms 
+feature 		5 	Backend API design, 
+				frontend UI development		Developer A
+Implement real-time 
+messaging 		8	Backend WebSocket setup, 
+				frontend chat interface		Developer B
+Basic task assignment 
+and tracking		 5	 Database schema 
+				design, task board UI		Developer C
+
+Velocity: 18 story points
+
+Sprint Review and Retrospective
+
+Review:
+
+1.Successfully implemented virtual rooms with basic management features.
+
+2.Real-time messaging feature integrated, supporting text chat and initial video call setup.
+
+3.Task assignment and tracking functionalities started, with basic UI components in place.
+
+Retrospective:
+
+1.What went well: 
+	Smooth integration of real-time messaging using WebSockets.
+
+2.What could be improved:
+	 More detailed task breakdowns needed for smoother task management implementation.
+
+Next steps:
+
+1.Sprint 2 Planning: 
+	Prioritize backlog items based on Sprint 1 feedback and progress.
+
+2.Enhanced Features:
+	 Focus on adding document collaboration and third-party tool integrations.
+
+3.User Feedback: 
+	Conduct usability tests to gather feedback and iterate on existing features.
+
+
+
+
+
+Assignment 2:
+	Daily Standup Simulation - Write a script for a Daily Standup meeting for a development team working on the software feature from Assignment 1. Address a common challenge and incorporate a solution into the communication flow.
+has context menu
+
+
+
+Daily Standup Meeting Script
+
+Date: June 19, 2024
+Time: 9:00 AM
+Location: Virtual Meeting Room
+
+Attendees:
+
+Team Lead (TL)
+Developer A (DA)
+Developer B (DB)
+Designer A (DesA)
+TL: Good morning, everyone. Let's start our daily standup. Today, I'll facilitate to keep us on track.
+DA: Good morning!
+DB: Morning!
+DesA: Hello, everyone!
+
+TL: As we begin, let's quickly review yesterday's goals and today's priorities.
+DA: Yesterday, I completed the backend setup for social media login and integrated the APIs.
+DB: I focused on researching machine learning model APIs and started preprocessing our dataset for integration.
+DesA: I finalized the initial design mockups for the export data feature.
+
+TL: Great progress, team. Now, let's discuss any challenges or blockers we're facing. DA, any impediments?
+
+DA: Yes, I encountered an issue with the API rate limit during integration. I've reached out to their support team and am waiting for a response. It might delay further testing.
+
+TL: Thanks for flagging that, DA. Keep us updated. DB, how about you?
+
+DB: I'm facing some challenges in aligning the dataset format with the ML model requirements. I plan to consult with our data analyst to streamline the preprocessing steps.
+
+TL: Good initiative, DB. Let's ensure we sync up with the data analyst promptly. DesA, any blockers on your end?
+
+DesA: No blockers currently. I'm ready to move forward with refining the design based on any feedback we receive.
+
+TL: Excellent. As for today's plan, let's prioritize resolving the API rate limit issue, refining the preprocessing steps for the ML model, and gathering initial feedback on the design mockups. Anything else for today?
+
+DA: We should also start considering the push notification integration for the analytics feature. It ties into the real-time analytics user story.
+
+TL: Agreed. Let's add that to our backlog refinement for the next sprint planning. Anything else? Alright, if there's nothing more, let's conclude. Remember to update our task board and keep communication channels open.
+
+DA: Got it.
+
+DB: Will do.
+
+DesA: Understood.
+
+TL: Thanks, everyone. Let's have another productive day. We'll reconvene tomorrow at the same time. Take care!
+
+DA, DB, DesA: Thank you. Bye!
